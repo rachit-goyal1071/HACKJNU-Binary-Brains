@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "464181929825",
+    "firebase_url": "https://rajasthanpolice-bc516-default-rtdb.firebaseio.com",
+    "project_id": "rajasthanpolice-bc516",
+    "storage_bucket": "rajasthanpolice-bc516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464181929825:android:1fa164477410d5d3f5c720",
+        "android_client_info": {
+          "package_name": "com.example.multiplatformtest.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByb3R8VS0E08ng889PCTEP-d-48I8TMCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

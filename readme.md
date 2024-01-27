@@ -64,18 +64,18 @@ Integrate the AI surveillance system with a Kotlin Compose mobile application, u
    git clone https://github.com/your-username/ai-surveillance-system.git
    ```
 
-<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/RJPOLICE_HACK_694_Defenders_3/assets/119928941/5d63d979-300a-4d6f-89a9-abaeada3d06e">
+<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/5d63d979-300a-4d6f-89a9-abaeada3d06e">
 
 ## Crime Detection Model
 
-<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/RJPOLICE_HACK_694_Defenders_3/assets/119928941/e38b4691-f451-418a-ba0e-f61243c9cc0a">
+<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/e38b4691-f451-418a-ba0e-f61243c9cc0a">
 
 ## Violence Detection Model
 
-<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/RJPOLICE_HACK_694_Defenders_3/assets/119928941/15ed8360-5fd9-4426-93e3-e395ef0edc5d">
+<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/15ed8360-5fd9-4426-93e3-e395ef0edc5d">
 
 ## App UI
 
-<img width="350" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/RJPOLICE_HACK_694_Defenders_3/assets/119928941/3e28095d-736f-4fe8-951f-e774ac604c75">
+<img width="350" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/3e28095d-736f-4fe8-951f-e774ac604c75">
 
 

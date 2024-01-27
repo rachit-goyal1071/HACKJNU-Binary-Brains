@@ -245,7 +245,7 @@ class WebcamApp:
 
     def setup_close_button(self):
         # Close Frame button
-        Button(self.root, text="Close Frame", bg="#ff0000", fg="#ffffff", command=self.close_frame).grid(row=8, column=0, columnspan=3, sticky="nsew", pady=10)
+        Button(self.root, text="Close Frame", bg="#ff0000", fg="#ffffff", command=self.close_frame).grid(row=1, column=0, columnspan=3, sticky="nsew", pady=10)
 
     def setup_close_camera_button(self):
         # Close Camera button

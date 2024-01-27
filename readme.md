@@ -1,81 +1,60 @@
-# AI-Based Intelligent Camera System for Enhanced Surveillance
-
+# AI-Based Intelligent Home Security System
 ## Problem Statement
-
-Traditional surveillance relies on human operators, leading to challenges like fatigue, inefficiency, and delayed responses. Continuous tracking and security in police lockups face limitations.
+Traditional home security systems may not efficiently identify and report criminal activities. Current systems lack the ability to distinguish between normal and potentially dangerous behaviors.
 
 ## Solution Overview
-
-Develop an AI-based intelligent camera system to automate real-time video analysis, efficient decision-making, and targeted threat detection, overcoming human surveillance challenges.
+Develop an AI-based intelligent home security system to automate real-time video analysis, efficient decision-making, and targeted threat detection. This system will recognize violent behaviors and promptly notify homeowners or authorities as necessary.
 
 ## Key Features
+**AI-Based System:** Utilizes machine learning for automatic real-time video analysis.
 
-- **AI-Based System:** Utilizes machine learning for automatic real-time video analysis.
-- **Advanced Algorithms:** Implements smart camera algorithms to differentiate between normal and suspicious activities.
-- **Identify Risky Items and Movements:** Detects potentially harmful objects and actions such as climbing, drilling, or suspicious interactions.
-- **Machine Learning Techniques:** Adapts and refines decision-making skills based on continuous feedback.
-- **Triggers for Suspicious Activity:** Establishes real-time triggers to identify anomalies in lockup environments.
+**Advanced Algorithms:** Implements smart camera algorithms to differentiate between normal and suspicious activities.
 
-## Examples of Triggers
+**Identify Violent Behaviors:** Detects aggressive actions, fights, or other violent behaviors within the camera's view.
 
-1. Unusual movement or behavior of individuals in the lockup.
-2. Anomalies in interactions between accused individuals and law enforcement.
-3. Actions that deviate from normal behavior and might indicate potential problems.
+**Machine Learning Techniques:** Adapts and refines decision-making skills based on continuous feedback.
 
-## Real-Time Decision-Making
+**Triggers for Suspicious Activity:** Establishes real-time triggers to identify anomalies in home environments.
 
+### Examples of Triggers
+Physical altercations or fights within the camera's range.
+Suspicious activities, such as breaking and entering, or aggressive behavior.
+Actions that deviate from normal behavior and might indicate potential criminal activities.
+
+### Real-Time Decision-Making
 The system responds promptly to suspicious triggers, enhancing security measures through quick, autonomous decision-making.
 
-## Autonomous Analysis
-
+### Autonomous Analysis
 The AI system autonomously examines video streams, eliminating the need for constant human intervention.
 
-## Integration with Kotlin Compose Multiplatform App and Firebase
+### Integration with Mobile App and Cloud Service
+Overview
+Integrate the AI-based home security system with a mobile application, utilizing cloud services for real-time data communication and sharing.
 
-### Overview
+## Features
+Real-time Notifications
+Sends push notifications to homeowners' devices when violent or criminal activities are detected.
+Provides snapshot data from the AI surveillance system for immediate review.
+Authorities Notification
+Automatically alerts local authorities with relevant details if criminal activities are identified.
+Cloud Storage of Incidents
+Records incident details, including timestamps, AI snapshot images, and homeowner responses.
+Provides a secure cloud storage interface for accessing historical incident data.
+How to Use
+Clone Repository:
 
-Integrate the AI surveillance system with a Kotlin Compose mobile application, utilizing Firebase for real-time data communication and sharing.
+bash
+`git clone https://github.com/your-username/ai-home-security-system.git`
 
-### Features
+**Configure Mobile App:**
 
-#### Real-time Notifications
+Install the mobile application on your device.
+Connect the app to the AI home security system by entering relevant details.
+Receive Notifications:
 
-- Sends push notifications to police officers' devices when suspicious activities are detected.
-- Provides snapshot data from the AI surveillance system for immediate review.
+Receive real-time push notifications on your device for any detected violent or criminal activities.
+Take necessary actions, such as contacting authorities or reviewing the AI snapshot images.
+Access Cloud Storage:
 
-#### Location Coordinates
-
-- Embeds precise location coordinates within the notification, aiding officers in identifying the incident location.
-
-#### Emergency Services Integration
-
-- Allows officers to request emergency services (e.g., ambulance, fire brigade) through the Kotlin Compose app.
-- Includes a dedicated interface for officers to communicate and coordinate responses.
-
-#### Incident Logging and Reporting
-
-- Records incident details, including timestamps, AI snapshot images, and officer responses.
-- Provides an interface for officers to add additional notes and details.
-
-### How to Use
-
-1. **Clone Repository:**
-   ```bash
-   git clone https://github.com/your-username/ai-surveillance-system.git
-   ```
-
-<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/5d63d979-300a-4d6f-89a9-abaeada3d06e">
-
-## Crime Detection Model
-
-<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/e38b4691-f451-418a-ba0e-f61243c9cc0a">
-
-## Violence Detection Model
-
-<img width="870" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/15ed8360-5fd9-4426-93e3-e395ef0edc5d">
-
-## App UI
-
-<img width="350" alt="Screenshot 2024-01-17 at 5 53 59 PM" src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/119928941/3e28095d-736f-4fe8-951f-e774ac604c75">
-
-
+Explore historical incident data stored securely in the cloud.
+Gain insights into past events for better home security.

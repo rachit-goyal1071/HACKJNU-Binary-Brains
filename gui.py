@@ -192,11 +192,11 @@ class WebcamApp:
         # Description
         description_label = Label(root, text="This application showcases various Super Vision Models for different tasks.",
                                   font=("Helvetica", 10), fg="#000000", bg="#feece5")
-        description_label.grid(row=2, column=0, columnspan=3, sticky="ew", pady=5)
+        description_label.grid(row=1, column=0, columnspan=3, sticky="ew", pady=5)
 
         # Video Frame
         self.video_frame = Frame(root, bg="#feece5", width=480, height=360)  # Smaller frame size
-        self.video_frame.grid(row=3, column=0, columnspan=3, sticky="nsew", pady=10)
+        self.video_frame.grid(row=10, column=0, columnspan=3, sticky="nsew", pady=10)
 
         # Placeholder label for video
         self.video_label = Label(self.video_frame, text="Camera Frame", bg="#feece5")
@@ -221,11 +221,11 @@ class WebcamApp:
     def setup_detection_buttons(self):
         # Anomaly Detection
         label_anomaly = Label(self.root, text="Anomaly Detection", font=("Helvetica", 18), fg="#0b0980", bg="#feece5")
-        label_anomaly.grid(row=5, column=0, sticky="w", pady=5)
+        label_anomaly.grid(row=8, column=0, sticky="w", pady=5)
         btn_anomaly = Button(self.root, text="Anomaly Detection", bg="#0b0980", fg="#000000", command=lambda: self.process_button_click("Anomaly Detection"))
-        btn_anomaly.grid(row=5, column=1, columnspan=2, sticky="ew", pady=5)
+        btn_anomaly.grid(row=8, column=1, columnspan=2, sticky="ew", pady=5)
         desc_anomaly = Label(self.root, text="Description for Anomaly Detection", font=("Helvetica", 10), fg="#000000", bg="#feece5")
-        desc_anomaly.grid(row=5, column=3, sticky="w", pady=5)
+        desc_anomaly.grid(row=8, column=3, sticky="w", pady=5)
 
         # Violence Specific
         label_violence = Label(self.root, text="Violence Specific", font=("Helvetica", 18), fg="#ffb103", bg="#feece5")
@@ -245,7 +245,7 @@ class WebcamApp:
 
     def setup_close_button(self):
         # Close Frame button
-        Button(self.root, text="Close Frame", bg="#ff0000", fg="#ffffff", command=self.close_frame).grid(row=1, column=0, columnspan=3, sticky="nsew", pady=10)
+        Button(self.root, text="Close Frame", bg="#ff0000", fg="#ffffff", command=self.close_frame).grid(row=5, column=0, columnspan=3, sticky="nsew", pady=10)
 
     def setup_close_camera_button(self):
         # Close Camera button
@@ -312,9 +312,11 @@ class WebcamApp:
 
             # Hide Close Camera button
             self.close_camera_button.grid_forget()
+            self.video_frame.destroy()
 
     def close_frame(self):
         self.root.destroy()
+
 
 if __name__ == "__main__":
     root = Tk()

@@ -101,3 +101,6 @@ Access Cloud Storage:
 
 Explore historical incident data stored securely in the cloud.
 Gain insights into past events for better home security.
+
+## Conrtibutors
+[![Contributors](https://contrib.rocks/image?repo=rachit-goyal1071/HACKJNU-Binary-Brains)](https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/graphs/contributors)

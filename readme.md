@@ -6,7 +6,10 @@
 We use CCTV cameras a lot when trying to solve a crime or identify the criminal, so why not crank it up a notch and use those cameras not just for recording the crime but also to detect it and notify the responsible authorities?
 
 ## UNO and it's SDGs
-![Untitled design (8)](https://github.com/ansh1119/HACKJNU-Binary-Brains/assets/122884420/1bdfdbfe-fbe4-4fc3-8d5b-796fd1222aa1)
+
+<picture>
+ <img src="https://github.com/ansh1119/HACKJNU-Binary-Brains/assets/122884420/1bdfdbfe-fbe4-4fc3-8d5b-796fd1222aa1" width="auto" height="500"/>
+</picture>
 
 
 Out of the 17 available SDGs listed by the UNO, Super-Vision aligns with the ideas of SDG 16 and also lightly touch SDGs 3,9 and 11. **SDG 16** states **"Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"**
@@ -32,9 +35,30 @@ An AI-based intelligent home security system to automate real-time video analysi
 **Triggers for Suspicious Activity:** Establishes real-time triggers to identify anomalies in home environments.
 
 ### Examples of Triggers
-Physical altercations or fights within the camera's range.
-Suspicious activities, such as breaking and entering, or aggressive behavior.
-Actions that deviate from normal behavior and might indicate potential criminal activities.
+- Physical altercations or fights within the camera's range.
+
+  <picture>
+ <img src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/blob/main/assets/violence.jpg" width="auto" height="200"   />
+</picture>
+
+- Suspicious activities, such as breaking and entering, or aggressive behavior.
+
+<picture>
+ <img src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/122884420/4442c964-6c0f-4bc6-acc8-2aaab7b63b70" width="auto" height="200"/>
+</picture>
+
+  
+- Accidents on street or activities involving the indulgence of concerned authorities
+  
+<picture>
+ <img src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/blob/main/assets/accident.jpg"  width="auto" height="200" />
+</picture>
+
+- Actions that deviate from normal behavior and might indicate potential criminal activities.
+  
+<picture>
+ <img src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/assets/122884420/2c070c20-f0b4-4c65-9166-5b2034d6d380"  width="auto" height="200" />
+</picture>
 
 ### Real-Time Decision-Making
 The system responds promptly to suspicious triggers, enhancing security measures through quick, autonomous decision-making.
@@ -45,6 +69,10 @@ The AI system autonomously examines video streams, eliminating the need for cons
 ### Integration with Mobile App and Cloud Service
 Overview
 Integrate the AI-based home security system with a mobile application, utilizing cloud services for real-time data communication and sharing.
+
+<picture>
+ <img src="https://github.com/rachit-goyal1071/HACKJNU-Binary-Brains/blob/main/assets/Screenshot%202024-01-27%20at%201.33.38%E2%80%AFPM.png" width="auto" height="400"/>
+</picture>
 
 ## Features
 Real-time Notifications
